@@ -4,6 +4,9 @@ body {
   margin: 0;
   width: 100%;
 }
+.fullPage {
+  width: 100%;
+}
 
 li {
   display: inline;
@@ -199,7 +202,6 @@ hr {
 }
 .Gallery {
   margin-top: 2rem;
- 
 }
 .gallery-title {
   text-align: center;
