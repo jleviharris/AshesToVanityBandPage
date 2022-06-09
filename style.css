@@ -2,10 +2,13 @@ body {
   background-color: black;
   padding: 0;
   margin: 0;
-  width: 100%;
+  width: 100vw;
 }
 .fullPage {
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 li {
@@ -17,9 +20,6 @@ li {
 #navbar {
   display: flex;
   flex-direction: row;
-  position: fixed;
-  top: 0;
-  left: 1000px;
   font-family: Metal Mania;
   color: white;
 }
@@ -35,9 +35,11 @@ nav > ul {
   max-height: 200px;
 }
 
-header {
-  position: fixed;
-  width: 100%;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
   height: 150px;
   top: 0;
   left: 0;
@@ -47,40 +49,29 @@ header {
 
 section > ul {
   display: flex;
-  flex-direction: row;
-  margin-left: 50px;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 1200px;
+  align-items: center;
 }
 
-section {
+.bandNamePic {
   padding-top: 50px;
   background-color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  color: white;
 }
 
-#name {
-  height: 500px;
-  width: 700px;
+.name {
+  height: auto;
+  width: 100vw;
   padding: 0;
   opacity: 0.6;
   margin: 100px 0px;
 }
 
 iframe {
-  max-width: 400px;
+  max-width: 600px;
   max-height: 300px;
   padding-top: 50px;
-}
-
-#youtube {
-  box-sizing: border-box;
-  position: relative;
-  right: 390px;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
 }
 
 #lnkimgS {
@@ -148,6 +139,7 @@ footer {
   text-align: center;
   padding: 50px 0px 50px 0px;
   margin: 50px 0px 0px 0px;
+  width: 100vw;
 }
 
 nav a {
@@ -192,16 +184,13 @@ hr {
   border: 0.25px solid rgba(200, 235, 233, 0.596);
   width: 90%;
 }
-
-@media only screen and (max-width: 815px) {
-  section > ul {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-  }
+.members {
+  color: white;
 }
+
 .Gallery {
-  margin-top: 2rem;
+  margin-top: 25rem;
+  margin-bottom: 10rem;
 }
 .gallery-title {
   text-align: center;
@@ -309,5 +298,12 @@ hr {
   }
   to {
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 815px) {
+  section > ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
   }
 }

@@ -12,11 +12,12 @@
     </head>
     <body>
         <div class="fullPage">
-        <div>
-            <header id="header">
-                    <div id="logo"><a target="_blank" href="https://open.spotify.com/album/43eN0ShtuXartCPvqS8c6Z"><img id="header-img" src="./Resources/Screen Shot 2022-06-03 at 11.00.30 AM.png" alt="band logo"></a>
+            <header id="header" class="header">
+                    <div class="logo"><a target="_blank" href="https://open.spotify.com/album/43eN0ShtuXartCPvqS8c6Z"><img id="header-img" src="./Resources/Screen Shot 2022-06-03 at 11.00.30 AM.png" alt="band logo"></a>
                         <p><font size="+1">New Album</font></p>
                         <p>Out now!</p>
+                    </div>
+                    <div class="navbarDiv">
                         <nav id="navbar">
                             <ul>
                                 <li><a href="#youtube"><font size="+2">Videos</font></a></li>
@@ -25,158 +26,157 @@
                                 <li><a href="#social"><font size="+2">Social Media</font></a></li>
                             </ul>
                         </nav>
+                    </div>
             </header>
-        </div>
+       
      
-        <section id="name-logo">
-            <h2><img id="name" src="./Resources/BandName.jpeg"></h2>
-        </section>
+            <div id="name-logo" class="bandNamePic">
+                <img id="name" class="name" src="./Resources/BandName.jpeg">
+            </div>
     
-        <hr/>
+            
         
-        <div id="videos">
-            <section id="youtube">
-                <ul>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/jk_tv2nlzZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/ufUyVChsz_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/m00Peq8zehs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                </ul>
-            </section>
-            <section id="youtube">
-                <ul>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/vgJMQ1NOJtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/dbUQT1nRaA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/snrklqQQRIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                </ul>
-            </section>
-        </div>
+            <div id="videos">
+                <section id="youtube" class="youtube">
+                    <ul>
+                        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/jk_tv2nlzZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/ufUyVChsz_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/m00Peq8zehs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/vgJMQ1NOJtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/dbUQT1nRaA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/snrklqQQRIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </ul>
+                </section>
+            </div>
         
-        <section id="Members">
-            <h2><font size="+5">Members</font></h2>
-            <img id="membersimg" src="Resources/band-members.jpeg">
-        </section>
+            <section id="Members" class="members">
+                <h2><font size="+5">Members</font></h2>
+                <img id="membersimg" src="Resources/band-members.jpeg">
+            </section>
         
 
-        <div class="Gallery" id="Gallery">
-            <h2 class = "gallery-title"><font size="+5">Gallery</font></h2>
-              <!-- Slideshow container -->
-          <div class="slideshow-container">
-              <!-- Full-width images with number and caption text -->
-              <div class="mySlides fade">
-                  <div class="numbertext">1 / 28</div>
-                  <img class="slides-img" src="./Resources/pic1.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">2 / 28</div>
-                  <img class="slides-img" src="./Resources/pic2.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">3 / 28</div>
-                  <img class="slides-img" src="./Resources/pic3.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">4 / 28</div>
-                  <img class="slides-img" src="./Resources/pic4.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">5 / 28</div>
-                  <img class="slides-img" src="./Resources/pic5.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">6 / 28</div>
-                  <img class="slides-img" src="./Resources/pic6.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">7 / 28</div>
-                  <img class="slides-img" src="./Resources/pic7.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">8 / 28</div>
-                  <img class="slides-img" src="./Resources/pic8.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">9 / 28</div>
-                  <img class="slides-img" src="./Resources/pic9.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">10 / 28</div>
-                  <img class="slides-img" src="./Resources/pic10.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">11 / 28</div>
-                  <img class="slides-img" src="./Resources/pic11.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">12 / 28</div>
-                  <img class="slides-img" src="./Resources/pic12.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">13 / 28</div>
-                  <img class="slides-img" src="./Resources/pic13.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">14 / 28</div>
-                  <img class="slides-img" src="./Resources/pic14.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">15 / 28</div>
-                  <img class="slides-img" src="./Resources/pic15.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">16 / 28</div>
-                  <img class="slides-img" src="./Resources/pic16.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">17 / 28</div>
-                  <img class="slides-img" src="./Resources/pic17.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">18 / 28</div>
-                  <img class="slides-img" src="./Resources/pic18.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">19 / 28</div>
-                  <img class="slides-img" src="./Resources/pic19.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">20 / 28</div>
-                  <img class="slides-img" src="./Resources/pic20.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">21 / 28</div>
-                  <img class="slides-img" src="./Resources/pic21.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">22 / 28</div>
-                  <img class="slides-img" src="./Resources/pic22.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">23 / 28</div>
-                  <img class="slides-img" src="./Resources/pic23.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">24 / 28</div>
-                  <img class="slides-img" src="./Resources/pic24.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">25 / 28</div>
-                  <img class="slides-img" src="./Resources/pic25.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">26 / 28</div>
-                  <img class="slides-img" src="./Resources/pic26.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">27 / 28</div>
-                  <img class="slides-img" src="./Resources/pic27.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-              <div class="mySlides fade">
-                  <div class="numbertext">28 / 28</div>
-                  <img class="slides-img" src="./Resources/pic28.jpeg" alt="Band Picture" style="width:100%">
-              </div>
-             
-          </div>
-          <br>
+            <div class="Gallery" id="Gallery">
+                <h2 class = "gallery-title"><font size="+5">Gallery</font></h2>
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 28</div>
+                        <img class="slides-img" src="./Resources/pic1.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 28</div>
+                        <img class="slides-img" src="./Resources/pic2.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 28</div>
+                        <img class="slides-img" src="./Resources/pic3.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 28</div>
+                        <img class="slides-img" src="./Resources/pic4.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 28</div>
+                        <img class="slides-img" src="./Resources/pic5.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 28</div>
+                        <img class="slides-img" src="./Resources/pic6.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 28</div>
+                        <img class="slides-img" src="./Resources/pic7.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 28</div>
+                        <img class="slides-img" src="./Resources/pic8.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 28</div>
+                        <img class="slides-img" src="./Resources/pic9.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">10 / 28</div>
+                        <img class="slides-img" src="./Resources/pic10.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">11 / 28</div>
+                        <img class="slides-img" src="./Resources/pic11.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">12 / 28</div>
+                        <img class="slides-img" src="./Resources/pic12.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">13 / 28</div>
+                        <img class="slides-img" src="./Resources/pic13.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">14 / 28</div>
+                        <img class="slides-img" src="./Resources/pic14.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">15 / 28</div>
+                        <img class="slides-img" src="./Resources/pic15.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">16 / 28</div>
+                        <img class="slides-img" src="./Resources/pic16.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">17 / 28</div>
+                        <img class="slides-img" src="./Resources/pic17.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">18 / 28</div>
+                        <img class="slides-img" src="./Resources/pic18.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">19 / 28</div>
+                        <img class="slides-img" src="./Resources/pic19.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">20 / 28</div>
+                        <img class="slides-img" src="./Resources/pic20.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">21 / 28</div>
+                        <img class="slides-img" src="./Resources/pic21.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">22 / 28</div>
+                        <img class="slides-img" src="./Resources/pic22.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">23 / 28</div>
+                        <img class="slides-img" src="./Resources/pic23.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">24 / 28</div>
+                        <img class="slides-img" src="./Resources/pic24.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">25 / 28</div>
+                        <img class="slides-img" src="./Resources/pic25.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">26 / 28</div>
+                        <img class="slides-img" src="./Resources/pic26.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">27 / 28</div>
+                        <img class="slides-img" src="./Resources/pic27.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">28 / 28</div>
+                        <img class="slides-img" src="./Resources/pic28.jpeg" alt="Band Picture" style="width:100%">
+                    </div>
+                
+                </div>
+            </div>
+         
+         <br>
        
 
 
