@@ -71,6 +71,12 @@ section > ul {
   font-size: x-large;
   width: 50vw;
 }
+.newAlbum {
+  width: 50vw;
+}
+.newInfo a {
+  color: red;
+}
 
 iframe {
   max-width: 600px;
@@ -299,14 +305,17 @@ hr {
     opacity: 1;
   }
 }
-@media only screen and (max-width: 815px) {
-  section > ul {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
+@media only screen and (min-width: 600px) {
+  .name {
+    width: 100vw;
   }
 }
 @media only screen and (min-width: 815px) {
+  .name {
+    width: 100vw;
+  }
+}
+@media only screen and (min-width: 1000px) {
   .name {
     width: 50vw;
   }
