@@ -40,7 +40,7 @@ nav > ul {
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
-  height: 150px;
+  height: Auto;
   top: 0;
   left: 0;
   background-color: black;
@@ -156,11 +156,6 @@ footer a :hover {
   transition: background-color 0.15s, font-size 0.15s;
   font-size: 30px;
   font-weight: 600;
-}
-
-#header-img:hover {
-  width: 200px;
-  height: 200px;
 }
 
 nav a :hover {
@@ -305,5 +300,10 @@ hr {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 815px) {
+  .name {
+    width: 50vw;
   }
 }
