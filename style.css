@@ -67,6 +67,10 @@ section > ul {
   opacity: 0.6;
   margin: 100px 0px;
 }
+.newInfo {
+  font-size: x-large;
+  width: 50vw;
+}
 
 iframe {
   max-width: 600px;
