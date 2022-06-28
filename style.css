@@ -28,6 +28,10 @@ nav > ul {
   display: flex;
   flex-direction: row;
 }
+.logo {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
 
 #header-img {
   width: 130px;
@@ -85,6 +89,7 @@ section > ul {
   color: white;
   font-family: Metal Mania;
   text-align: center;
+  margin-top: 20rem;
 }
 .tour {
   display: flex;
