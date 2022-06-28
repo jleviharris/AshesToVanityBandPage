@@ -81,6 +81,11 @@ section > ul {
   color: white;
   font-family: Metal Mania;
 }
+.newSongsHeader {
+  color: white;
+  font-family: Metal Mania;
+  text-align: center;
+}
 .tour {
   display: flex;
   flex-direction: column;
