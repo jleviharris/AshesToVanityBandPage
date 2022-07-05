@@ -103,6 +103,7 @@ section > ul {
 .titleNewMusicVideo {
   margin: 0;
   padding: 0;
+  font-family: Metal Mania;
 }
 .firstMusicVideo {
   padding-top: 0;
@@ -160,7 +161,7 @@ a {
 
 #membersimg {
   max-width: 75%;
-  max-height: 700px;
+  max-height: 550px;
 }
 
 #Members {
@@ -201,8 +202,14 @@ footer a :hover {
 nav a :hover {
   color: red;
   background-color: black;
-  transition: background-color 0.15s, font-size 0.15s;
-  font-size: 30px;
+  transition: background-color 0.15s;
+}
+.credits {
+  text-align: end;
+  font-size: small;
+}
+.introTitle {
+  text-align: center;
 }
 
 p {
