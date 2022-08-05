@@ -244,6 +244,10 @@ hr {
   height: 50rem;
   object-fit: contain;
 }
+#scrollUpBtn {
+  color: white;
+  font-size: 4rem;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 50vw;
